@@ -59,7 +59,7 @@ cc_library_shared {
         "android.hardware.vibrator-V1-ndk_platform",
     ],
     export_include_dirs: ["include"],
-    header_libs: ["qti_kernel_headers"],
+    header_libs: ["device_kernel_headers"],
 }
 
 cc_binary {
